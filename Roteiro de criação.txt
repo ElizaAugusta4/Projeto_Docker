@@ -1,6 +1,0 @@
-comandos para executar os arquivos, criar containers e imagens e modificá-los:
-
-docker-compose up
-
-docker-compose build
-
