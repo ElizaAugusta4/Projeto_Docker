@@ -12,3 +12,11 @@ RUN npm install
 
 # Copiando o restante dos arquivos da aplicação para o diretório de trabalho
 COPY app/ .
+
+# Expondo a porta 8000
+EXPOSE 8000
+
+# Comando para executar o aplicativo Node.js
+CMD ["node", "index.js"]
+
+EXPOSE 8081
